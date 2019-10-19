@@ -14,14 +14,14 @@ public class MyArray<E> {
     public MyArray() {
         tlength = 0;
         length = 5;
-        array = (E[])new Object[length];
+        array = (E[])new Comparable[length];
     }
 
     // 自定义数组长度
     public MyArray(int length) {
         tlength = 0;
         this.length = length;
-        array = (E[])new Object[length];
+        array = (E[])new Comparable[length];
     }
 
     // 得到数组实际有效长度
@@ -39,7 +39,7 @@ public class MyArray<E> {
 
     // 重新定义数组最大长度，将原数组拷贝到一个新数组，将新数组赋给原数组
     public void relength(int newLength){
-        E[] newArray = (E[])new Object[newLength];
+        E[] newArray = (E[])new Comparable[newLength];
         for (int i = 0; i < tlength; i++) {
             newArray[i] = array[i];
         }

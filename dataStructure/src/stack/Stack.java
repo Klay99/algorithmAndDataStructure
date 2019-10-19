@@ -21,7 +21,7 @@ public class Stack<E> {
     public Stack(int size) {
         top = -1;
         this.size = size;
-        myArray = new MyArray<E>(size);
+        myArray = new MyArray<>(size);
     }
 
     // 是否为空
