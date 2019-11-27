@@ -6,7 +6,7 @@ package heap;
  * @author: Koty
  * @create: 2019-11-26 10:41
  **/
-public class MaxHeap<T extends Comparable> {
+public class MaxHeap<T extends Comparable<T>> {
 
     private T[] maxHeap; // 数组实现
 

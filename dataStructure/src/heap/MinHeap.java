@@ -6,7 +6,7 @@ package heap;
  * @author: Koty
  * @create: 2019-11-27 14:17
  **/
-public class MinHeap<T extends Comparable> {
+public class MinHeap<T extends Comparable<T>> {
 
     private T[] minHeap; // 数组实现
 
