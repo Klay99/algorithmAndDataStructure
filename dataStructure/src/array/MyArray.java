@@ -10,7 +10,7 @@ public class MyArray<E> {
     private int length;// 最大长度
     private int tlength;// 实际有效长度
 
-    // 默认长度为50的数组
+    // 默认长度为5的数组
     public MyArray() {
         tlength = 0;
         length = 5;
