@@ -10,14 +10,14 @@ import java.util.Arrays;
  **/
 public class Sort<T extends Comparable<T>> {
 
-    public T[] bubbleSort(T[] array){
+    public T[] bubbleSort(T[] array) {
         print(array);
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length - i - 1; j++) {
-                if (array[j].compareTo(array[j+1]) >= 0) {
+                if (array[j].compareTo(array[j + 1]) >= 0) {
                     T temp = array[j];
-                    array[j] = array[j+1];
-                    array[j+1] = temp;
+                    array[j] = array[j + 1];
+                    array[j + 1] = temp;
                 }
                 print(array);
             }
@@ -49,8 +49,8 @@ public class Sort<T extends Comparable<T>> {
         for (int i = 1; i < array.length; i++) {
             T temp = array[i];
             int j = i;
-            while (j > 0 && temp.compareTo(array[j-1]) <= 0) {
-                array[j] = array[j-1];
+            while (j > 0 && temp.compareTo(array[j - 1]) <= 0) {
+                array[j] = array[j - 1];
                 print(array);
                 j--;
             }
@@ -120,7 +120,7 @@ public class Sort<T extends Comparable<T>> {
         while (i <= mid && j <= right) {
             if (temp[i].compareTo(temp[j]) <= 0) {
                 array[k++] = temp[i++];
-            }else {
+            } else {
                 array[k++] = temp[j++];
             }
             print(array);
@@ -144,10 +144,10 @@ public class Sort<T extends Comparable<T>> {
         while (h >= 1) {
             System.out.println("h=" + h + ":");
             for (int i = h; i < array.length; i++) {
-                for (int j = i; j >= h && array[j].compareTo(array[j-h]) <= 0; j -= h) {
+                for (int j = i; j >= h && array[j].compareTo(array[j - h]) <= 0; j -= h) {
                     T temp = array[j];
-                    array[j] = array[j-h];
-                    array[j-h] = temp;
+                    array[j] = array[j - h];
+                    array[j - h] = temp;
                     print(array);
                 }
             }
@@ -164,7 +164,7 @@ public class Sort<T extends Comparable<T>> {
 
     public static void main(String[] args) {
         Sort<Integer> s = new Sort<>();
-        Integer[] a = {6,5,3,1,8,7,2,4};
+        Integer[] a = {6, 5, 3, 1, 8, 7, 2, 4};
 
 //        s.bubbleSort(a);
 //        s.selectionSort(a);
@@ -172,7 +172,6 @@ public class Sort<T extends Comparable<T>> {
 //        s.quickSort(a);
 //        s.mergeSort(a);
         s.shellSort(a);
-
     }
 
 }

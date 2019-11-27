@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6f23c28-3474-4148-8e4a-e6752a968f42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/heap/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/heap/HeapElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/heap/MaxHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructure/src/heap/MinHeap.java" afterDir="false" />
+    <list default="true" id="b6f23c28-3474-4148-8e4a-e6752a968f42" name="Default Changelist" comment="update some comments">
       <change afterPath="$PROJECT_DIR$/dataStructure/src/tree/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithms/src/sorts/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/src/sorts/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/src/array/MyArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructure/src/array/MyArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dataStructure/array/MyArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dataStructure/array/MyArray.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,23 +20,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataStructure/src/array/MyArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="181">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataStructure/src/heap/Heap.java">
+        <entry file="file://$PROJECT_DIR$/dataStructure/src/tree/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
-              <folding>
-                <element signature="e#709#710#0" expanded="true" />
-                <element signature="e#741#742#0" expanded="true" />
-                <element signature="e#772#773#0" expanded="true" />
-                <element signature="e#811#812#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="175">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithms/src/sorts/Sort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="177" selection-start-line="177" selection-end-line="177" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -63,35 +59,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataStructure/src/heap/MinHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="116" column="24" selection-start-line="116" selection-start-column="24" selection-end-line="116" selection-end-column="24" />
+            <state relative-caret-position="531">
+              <caret line="119" column="5" lean-forward="true" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
               <folding>
                 <element signature="e#785#786#0" expanded="true" />
                 <element signature="e#817#818#0" expanded="true" />
                 <element signature="e#848#849#0" expanded="true" />
                 <element signature="e#887#888#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataStructure/src/heap/HeapElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="e#450#451#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#514#515#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
-                <element signature="e#570#571#0" expanded="true" />
-                <element signature="e#597#598#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,12 +104,12 @@
         <option value="$PROJECT_DIR$/dataStructure/src/tree/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/dataStructure/src/tree/BST.java" />
         <option value="$PROJECT_DIR$/algorithms/src/sorts/QuickSort.java" />
-        <option value="$PROJECT_DIR$/algorithms/src/sorts/Sort.java" />
         <option value="$PROJECT_DIR$/dataStructure/src/heap/HeapElement.java" />
-        <option value="$PROJECT_DIR$/dataStructure/src/array/MyArray.java" />
         <option value="$PROJECT_DIR$/dataStructure/src/heap/Heap.java" />
         <option value="$PROJECT_DIR$/dataStructure/src/heap/MaxHeap.java" />
         <option value="$PROJECT_DIR$/dataStructure/src/heap/MinHeap.java" />
+        <option value="$PROJECT_DIR$/dataStructure/src/array/MyArray.java" />
+        <option value="$PROJECT_DIR$/algorithms/src/sorts/Sort.java" />
       </list>
     </option>
   </component>
@@ -372,7 +349,7 @@
       <workItem from="1574683077029" duration="1042000" />
       <workItem from="1574727547220" duration="4980000" />
       <workItem from="1574818379553" duration="7663000" />
-      <workItem from="1574829004771" duration="6792000" />
+      <workItem from="1574829004771" duration="7463000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1565772590036</created>
@@ -388,11 +365,25 @@
       <option name="project" value="LOCAL" />
       <updated>1571450492146</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add some heaps">
+      <created>1574836133170</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574836133170</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update some comments">
+      <created>1574836477256</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574836477256</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87492000" />
+    <option name="totallyTimeSpent" value="88163000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -435,7 +426,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="add some sorts" />
-    <option name="LAST_COMMIT_MESSAGE" value="add some sorts" />
+    <MESSAGE value="add some heaps" />
+    <MESSAGE value="update some comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="update some comments" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Object.java">
@@ -567,22 +560,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dataStructure/src/tree/Test.java" />
-    <entry file="file://$PROJECT_DIR$/dataStructure/src/tree/BST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/TreeMap.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithms/src/sorts/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="98" column="33" selection-start-line="98" selection-start-column="33" selection-end-line="98" selection-end-column="33" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/src/sorts/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -605,10 +584,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/src/array/MyArray.java">
+    <entry file="file://$PROJECT_DIR$/dataStructure/src/heap/MaxHeap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="300">
+          <caret line="89" column="46" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
+          <folding>
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructure/src/heap/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1975">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -629,42 +627,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/src/heap/Heap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/src/heap/MaxHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="89" column="46" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
-          <folding>
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataStructure/src/heap/MinHeap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="116" column="24" selection-start-line="116" selection-start-column="24" selection-end-line="116" selection-end-column="24" />
+        <state relative-caret-position="531">
+          <caret line="119" column="5" lean-forward="true" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
           <folding>
             <element signature="e#785#786#0" expanded="true" />
             <element signature="e#817#818#0" expanded="true" />
             <element signature="e#848#849#0" expanded="true" />
             <element signature="e#887#888#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructure/src/array/MyArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructure/src/tree/BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/src/sorts/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="177" selection-start-line="177" selection-end-line="177" selection-end-column="5" />
         </state>
       </provider>
     </entry>
